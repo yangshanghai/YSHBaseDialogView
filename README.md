@@ -1,10 +1,10 @@
-# ZBHBaseDialogView
+# YSHBaseDialogView
 类似UIAlertView的自定义弹窗视图，可以自定义添加任意view，代码供参考
 
 #使用方式
-将ZBHBaseDialogView.h和.m文件加入工程，并继承ZBHBaseDialogView根据需要进行添加、改写，主要包括下边三个函数<br/>
+将YSHBaseDialogView文件夹加入工程，并继承YSHBaseDialogView根据需要进行添加、改写，主要包括下边三个函数<br/>
 
-```c
+```objc
 //额外添加UIView, 将新增的UIView添加到参数contentView上
 - (void)setupAdditionalContent:(UIView *)contentView;
 
